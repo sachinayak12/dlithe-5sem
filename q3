@@ -1,0 +1,15 @@
+//Swapping of 2 numbers by using 3rd variable 
+package engineering;
+
+public class Week1_Question3
+{
+public static void main(String[] args) {
+	int a=10;
+	int b=20;
+	System.out.println("before swaping value of \na:"+a+" \nb:"+b);
+	int temp=a;
+	a=b;
+	b=temp;
+	System.out.println("After swaping value of \na:"+a+" \nb:"+b);
+}
+}
