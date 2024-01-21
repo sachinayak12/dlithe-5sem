@@ -1,0 +1,15 @@
+package engineering;
+import java.util.Scanner;
+
+public class Week1_Question2 
+{
+public static void main(String[] args) 
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter any two integer numbers ");
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+	System.out.println("sum:"+(a+b));
+	sc.close();
+}
+}
