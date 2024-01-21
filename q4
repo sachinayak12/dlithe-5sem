@@ -1,0 +1,12 @@
+//Swapping of 2 numbers without using 3rd variable 
+package engineering;
+
+public class Week1_Question4 
+{
+public static void main(String[] args) {
+	int a=10;
+	int b=20;
+	System.out.println("before swaping value of \na:"+a+" \nb:"+b);
+	a=a+b;//30
+	b=a-b;//30-20=10
+	a=a-b;//30-10=20
