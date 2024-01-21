@@ -1,0 +1,12 @@
+//type casting in java 
+package engineering;
+
+public class Week1_Question8 
+{
+	public static void main(String[] args)
+	{
+		int a=75;
+		char c=(char)a;
+		System.out.println(c);
+	}
+}
